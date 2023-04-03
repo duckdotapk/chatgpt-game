@@ -20,9 +20,16 @@ upgradeBtn.addEventListener('click', () => {
     }
 });
 
+// Add a new variable to store the number of auto-clickers
+let autoClickers = 0;
+
+// Modify the startAutoClicker function
 function startAutoClicker() {
-    setInterval(() => {
-        score++;
-        scoreElement.textContent = score;
-    }, 1000);
+    if (autoClickers === 0) {
+        setInterval(() => {
+            score += autoClickers;
+            scoreElement.textContent = score;
+        }, 1000);
+    }
+    autoClickers++;
 }
