@@ -1,7 +1,7 @@
 ## ChatGPT Game
-This repo contains the code for a game I asked ChatGPT to create.
+A game written entirely by feeding prompts to ChatGPT and taking its output.
 
-Expect all code changes to be mostly or entirely created by ChatGPT.
+All code is written by ChatGPT.
 
 ## License
 [MIT](https://github.com/duckdotapk/chatgpt-game/blob/main/LICENSE.md)
