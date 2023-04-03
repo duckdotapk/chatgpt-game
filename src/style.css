@@ -33,3 +33,7 @@ body {
 .click-btn:hover {
     background-color: #45a049;
 }
+
+.upgrade-container {
+    margin-top: 20px;
+}
