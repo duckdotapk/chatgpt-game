@@ -28,9 +28,24 @@ h1 {
     display: inline-block;
     width: 100px;
     height: 100px;
+    background-color: #DAA520;
     border-radius: 50%;
     cursor: pointer;
-    object-fit: cover;
+    position: relative;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.click-btn:before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #CD853F;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .click-btn:hover {
