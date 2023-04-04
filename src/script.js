@@ -74,3 +74,5 @@ function startAutoClicker() {
         scoreElement.textContent = score;
     }, 1000);
 }
+
+startAutoClicker();
